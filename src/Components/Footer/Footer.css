@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap");
+
+.footerFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  gap: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(
+    to left,
+    rgb(238, 205, 163, 0.4),
+    rgb(239, 98, 159, 0.4)
+  );
+  width:98.3vw;
+  position: relative;
+  bottom: 0%;
+}
+
+.shopNamef {
+  font-family: "Pacifico", serif;
+  font-size: 30px;
+
+  letter-spacing: 4px;
+  color: #121111;
+}
+.prayaga {
+  font-size: 15px;
+  line-height: 32px;
+}
+.connect{
+  margin-top:12px
+}
+.footerIcons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  font-size: 23px;
+  margin: 10px 0px;
+}
+.footerIcons i {
+  padding: 3px;
+  border-radius: 6px;
+}
+.footerIcons i:hover {
+  background-color: #121111;
+  color: white;
+}
+.About {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  gap: 16px;
+  font-size: 14px;
+  margin: 10px 0px;
+}
+.About a {
+  text-decoration: none;
+  color: inherit;
+}
+.About a:hover {
+  font-weight: 450;
+  text-decoration: underline;
+}
+.Help {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  gap: 16px;
+  font-size: 14px;
+  margin: 10px 0px;
+}
+.Help a {
+  text-decoration: none;
+  color: inherit;
+}
+.Help a:hover {
+  font-weight: 450;
+  text-decoration: underline;
+}
+.Address {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+  margin: 10px 0px;
+  line-height: 32px;
+}

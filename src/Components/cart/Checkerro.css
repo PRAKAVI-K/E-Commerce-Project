@@ -1,0 +1,78 @@
+.checkWidth {
+  min-height: 60vh;
+}
+
+.Check-tile {
+  font-size: 23px;
+  font-family: cursive;
+  color: #dc2430;
+  padding: 12px;
+  text-shadow: 2px 2px 12px gray;
+}
+
+p.card-img-top {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 200px;
+  width: 150px;
+  text-align: center;
+}
+
+p.product-card {
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 32px;
+}
+
+p.product-card:hover {
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+  /* Hover effect for shadow */
+}
+
+p img {
+  opacity: 0.7;
+}
+
+p img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.placeOrder {
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #fecbd5;
+  border: none;
+  box-shadow: 0 0 10px rgb(145, 124, 124);
+  padding: 6px;
+  margin: 10px;
+}
+
+.placeOrder:hover {
+  color: #f5eef3;
+  cursor: pointer;
+  background-color: rgb(21, 21, 21);
+}
+
+.backToCart {
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #fecbd5;
+  border: none;
+  box-shadow: 0 0 10px rgb(145, 124, 124);
+  padding: 6px;
+  margin: 10px;
+  margin-bottom: 12px;
+}
+
+.backToCart:hover {
+  color: #f5eef3;
+  cursor: pointer;
+  background-color: rgb(21, 21, 21);
+}

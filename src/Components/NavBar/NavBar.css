@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap");
+
+.logo {
+  margin: 0%;
+  background-color: rgb(12, 12, 12);
+  margin: 12px;
+}
+
+.shopName {
+  font-family: "Pacifico", serif;
+  font-size: 30px;
+  margin: 0;
+  position: relative;
+  right: 200px;
+  letter-spacing: 4px;
+  color: #121111;
+}
+
+.NAVBAR {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  gap: 190px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(
+    to left,
+    rgb(238, 205, 163, 0.4),
+    rgb(239, 98, 159, 0.4)
+  );
+}
+
+.NavLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.nav:active {
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.nav i {
+  color: #5d2a40;
+  padding: 4px;
+  border-radius: 12px;
+}
+
+.search-icon {
+  position: relative;
+  left: 23px;
+  top: 5px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  position: relative;
+}
+
+.search-bar {
+  border: none;
+  border-bottom: 2px solid #0b0808;
+  outline: none;
+  padding: 10px 10px 10px 30px;
+  width: 300px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  margin-top: 13px;
+  border-radius: 32px;
+}
+
+.search-bar:focus {
+  border-bottom: 2px solid purple;
+}
+
+.btn-nav {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: rgb(5, 5, 5);
+  background-color: transparent;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn-nav::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #ef629f;
+  z-index: -1;
+  border-radius: 12px;
+  transform: scale(0, 1);
+  transform-origin: top right;
+  animation: hoverEffect 1s cubic-bezier(0.86, 0, 0.07, 1) infinite alternate;
+}
+
+@keyframes hoverEffect {
+  0% {
+    transform: scale(0, 1);
+    transform-origin: top right;
+  }
+
+  100% {
+    transform: scale(1, 1);
+    transform-origin: top left;
+  }
+}
+
+.nav i:hover {
+  background-color: #0b0005;
+  color: white;
+}
