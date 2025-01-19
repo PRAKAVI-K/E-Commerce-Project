@@ -53,9 +53,10 @@ img:hover {
 
   justify-content: center;
   align-items: center; */
+  margin: 12px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-  gap: 22px;
+  grid-template-columns: repeat(auto-fit, 400px);
+  gap: 23px;
   justify-content: center;
   align-items: center;
 }
@@ -93,4 +94,74 @@ img:hover {
 .btn-sin-flex {
   display: flex;
   flex-direction: row;
+}
+
+/* .search-icon {
+  position: relative;
+  left: 27px;
+  top: 29px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 20px;
+  position: relative;
+}
+
+.search-bar {
+  border: none;
+  border-bottom: 2px solid #0b0808;
+  outline: none;
+  padding: 10px 10px 10px 30px;
+  width: 300px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  margin-top: 13px;
+  border-radius: 32px;
+}
+
+.search-bar:focus {
+  border-bottom: 2px solid purple;
+} */
+/* Search Bar Styles */
+.search-container {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.search-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.search-bar {
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Sort Dropdown Styles */
+.sort-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px;
+}
+
+.sort-label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.sort-dropdown {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }

@@ -6,7 +6,7 @@ const Checkerro = () => {
     const product = location.state?.product;
 
     if (!product) {
-        return <p>No product data available!</p>;
+        return <p> </p>;
     }
     const handlePlaceOrder = () => {
         alert("Order placed successfully!");

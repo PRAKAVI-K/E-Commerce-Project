@@ -13,9 +13,9 @@ export const NavBar = ({ cart }) => {
         <img className="logo" src={icon} alt="logo" height={40} width={50} />
         <span className="shopName">Prayaga</span>
         <div className="NavLinks">
-          <div className="search-container">
+          {/* <div className="search-container">
             <i className="nav fa fa-search search-icon"></i>
-            <input type="search" placeholder="Search..." className="search-bar" /></div>
+            <input type="search" placeholder="Search..." className="search-bar" /></div> */}
           <NavLink className="nav" to="/">
             <i className="fa fa-home" style={{ fontSize: "20px" }}></i>
           </NavLink>
