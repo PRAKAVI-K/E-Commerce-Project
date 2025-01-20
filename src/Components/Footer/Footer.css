@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap");
 
 .footerFlex {
   display: flex;
@@ -88,4 +88,145 @@
   font-size: 14px;
   margin: 10px 0px;
   line-height: 32px;
+} */
+
+/* Responsive Footer Styling */
+.footerFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  gap: 50px; /* Reduced gap for smaller screens */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(
+    to left,
+    rgba(238, 205, 163, 0.4),
+    rgba(239, 98, 159, 0.4)
+  );
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 0;
+}
+
+/* Shop Name Styling */
+.shopNamef {
+  font-family: "Pacifico", serif;
+  font-size: 24px; /* Adjusted size for better responsiveness */
+  letter-spacing: 2px;
+  color: #121111;
+}
+
+/* Footer Section: Common Styling */
+.prayaga {
+  font-size: 14px;
+  line-height: 24px; /* Adjusted for readability */
+}
+.connect {
+  margin-top: 12px;
+}
+
+/* Footer Icons */
+.footerIcons {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.footerIcons i {
+  padding: 3px;
+  border-radius: 6px;
+}
+
+.footerIcons i:hover {
+  background-color: #121111;
+  color: white;
+}
+
+/* Footer Links */
+.About,
+.Help {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.About a,
+.Help a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.About a:hover,
+.Help a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Address Section */
+.Address {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .footerFlex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 16px;
+  }
+
+  .shopNamef {
+    font-size: 20px; /* Adjusted for smaller screens */
+    letter-spacing: 1px;
+  }
+
+  .footerIcons {
+    justify-content: center;
+    gap: 10px; /* Reduced gap */
+  }
+
+  .About,
+  .Help,
+  .Address {
+    font-size: 12px; /* Reduced font size for smaller screens */
+    gap: 8px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footerFlex {
+    padding: 12px;
+    gap: 16px;
+  }
+
+  .shopNamef {
+    font-size: 18px;
+  }
+
+  .footerIcons {
+    font-size: 18px;
+    gap: 8px;
+  }
+
+  .About,
+  .Help,
+  .Address {
+    font-size: 12px;
+    gap: 6px;
+  }
 }
