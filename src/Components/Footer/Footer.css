@@ -62,7 +62,7 @@
   color: inherit;
 }
 .About a:hover {
-  font-weight: 450;
+ 
   text-decoration: underline;
 }
 .Help {
@@ -78,7 +78,7 @@
   color: inherit;
 }
 .Help a:hover {
-  font-weight: 450;
+ 
   text-decoration: underline;
 }
 .Address {
@@ -166,7 +166,7 @@
 
 .About a:hover,
 .Help a:hover {
-  font-weight: bold;
+ 
   text-decoration: underline;
 }
 
